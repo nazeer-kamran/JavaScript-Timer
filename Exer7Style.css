@@ -1,0 +1,166 @@
+body {
+    background: #5090fd;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 250px;
+    border: 2.5px solid rgb(0, 45, 87);
+    border-radius: 10px;
+    margin-right: 10px;
+    float: left;
+    box-shadow: rgb(70, 69, 69) 1px 1px 15px;
+}
+
+.smallFont {
+    font-size: 30px;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 42, 77, 0.692);
+}
+
+#box1 {
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+#box2 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#box3 {
+    clear: both;
+    width: 400px;
+    padding-top: 20px;
+}
+
+.hd1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.hd2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.hd3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+.hd4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: auto;
+    color: brown;
+}
+
+.hd5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#time {
+    color: red;
+    border: 2px;
+    font-family: Courier;
+    font-size: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#timeWidget {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: auto;
+    border: 2px solid black;
+    box-shadow: black 1px 1px 5px;
+}
+
+.tw {
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    display: none;
+}
+
+#tw11 {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+}
+
+#tw12 {
+    position: absolute;
+    left: 23px;
+    top: 1px;
+}
+
+#tw21 {
+    position: absolute;
+    left: 1px;
+    top: 23px;
+}
+
+#tw22 {
+    position: absolute;
+    left: 23px;
+    top: 23px;
+}
+
+#startButton {
+    background-color: #d23332;
+}
+
+#resetButton {
+    background-color: #20b380;
+}
+
+#pauseButton {
+    background-color: #448aff;
+}
+
+input[type='button'] {
+    width: 55px;
+    height: 25px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type='button']:hover {
+    transform: scale(1.05);
+}
+
+input[type='text'] {
+    line-height: 20px;
+    border-radius: 3px;
+    text-align: center;
+}

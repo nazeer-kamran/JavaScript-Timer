@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>Exercise 7</title>
+    <link rel="stylesheet" type="text/css" href="Exer7Style.css">
+    <script src="Exer7.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container">
+        <p class="hd1">J<span class="smallFont">AVA</span>S<span class="smallFont">CRIPT</span> T<span class="smallFont">IMER</span>
+            <hr>
+
+            <div class="box" id="box1">
+                <p class="hd2">DISPLAY</p>
+                <hr/>
+                <p id="time" class="time">00:00</p>
+                <div id="timeWidget">
+                    <div id="tw11" class="tw"></div>
+                    <div id="tw12" class="tw"></div>
+                    <div id="tw22" class="tw"></div>
+                    <div id="tw21" class="tw"></div>
+                </div>
+            </div>
+            <div class="box" id="box2">
+                <p class="hd2">CONTROL</p>
+                <hr/>
+                <div class="checkboxBox">
+                    <label for="random" class="hd4">Random Start Time</label>
+                    <input type="checkbox" name="option" value="on" onchange="changeRandom()" id="randomBox"><br/><br/>
+                </div>
+                <input type="text" value="00" maxlength="2" size="2" id="inMinutes"> :
+                <input type="text" value="00" maxlength="2" size="2" id="inSeconds"><br/><br/>
+                <input type="button" value="Start" id="startButton">
+                <input type="button" value="Pause" id="pauseButton">
+                <input type="button" value="Reset" id="resetButton">
+                <br><br><br>
+                <p class="hd4" id="controlInstruct"></p>
+            </div>
+            <div id="box3" class="hd5">
+                <span id="groupNum"></span><br/>
+                <span id="student1"></span><br/>
+                <span id="student2"></span><br/>
+            </div>
+    </div>
+
+</body>
+
+</html>
